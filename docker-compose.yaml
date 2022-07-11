@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/usr/src/app # ローカルをコンテナ内にマウント
-    command: sh -c "yarn start"
+    command: sh -c "yarn install&&yarn start"
     ports:
       - "3000:3000"
     stdin_open: true 
