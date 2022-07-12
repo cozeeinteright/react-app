@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import Calendar from 'react-calendar';
+import React, { useState } from 'react'
+import Calendar from 'react-calendar'
+import 'react-calendar/dist/Calendar.css'
 
 function ShowCalendar() {
   const [value, onChange] = useState(new Date());
@@ -10,4 +11,4 @@ function ShowCalendar() {
     </div>
   );
 }
-export default ShowCalendar;
+export default ShowCalendar

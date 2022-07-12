@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from '@mui/material/Button';
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
         <nav>
           <Link to="/about">About</Link>
         </nav>
+        <Button variant="contained">Hello World</Button>
       </>
     );
 }
